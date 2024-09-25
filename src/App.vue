@@ -1,5 +1,8 @@
+<script setup>
+  import content from './components/content.vue'
+</script>
+
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Hello wordsdfsdfsld!
-  </h1>
+
+  <content />
 </template>
