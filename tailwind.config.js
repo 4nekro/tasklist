@@ -11,7 +11,9 @@ export default {
         padding: '2rem',
       },
       colors: {
-        'copo': '#4C107A'
+        'copo': '#4C107A',
+        'list-light': '#D9D9D9',
+        'list-dark': '#9F9F9F'
       }
     },
   },
