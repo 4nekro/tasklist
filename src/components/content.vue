@@ -13,7 +13,7 @@ function filter() {
         </aside>
 
         
-        <div class=" h-11 ml-20 mt- p-2 bg-gray-500 rounded-lg" id="container">
+        <div class=" max-w-fit h-11 ml-28 p-2 bg-gray-500 rounded-lg" id="container">
                 <!-- Lupa da barra de pesquisa -->
                 <span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline mb-1"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg>
@@ -27,12 +27,16 @@ function filter() {
                 </button>
             </div>
 
-        <main class="">
+        <main class="flex ml-28">
             <!-- TaskList -->
-            <div class=" bg-list-dark w-full h-screen">
-                <div class=" bg-list-light w-900 h-screen m-5" >
+            <div class=" bg-list-dark w-full h-screen p-10"> <!-- Quadrado cinza de trás -->
+                <div class="inline-flex justify-between gap-80 pl-10 font-bold text-lg"> <!-- Quadrado branco com as tarefas -->
+                    <p>Tarefas</p> <p>Designado</p> <p>Status</p> <p>Data</p> <p>Notas</p>
+                </div>
+                <div class="bg-list-light w-fit h-screen m-5" > <!-- Quadrado branco com as tarefas -->
                  <ul>
-                     teste
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae nostrum, quis repellendus, voluptatum incidunt rerum sequi eaque nam corrupti quod excepturi ipsum sapiente rem, porro fugit veniam dolorum eius aperiam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate dolore quia odio inventore est doloribus perferendis. Dolor dolorem ipsa voluptates. Perferendis id quo sit laboriosam quos, nam consequuntur est magni.
                  </ul>
                 </div>
             </div>
