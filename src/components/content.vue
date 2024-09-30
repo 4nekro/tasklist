@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from 'vue'
 
 function filter() {
     alert('funcionou')
@@ -15,8 +14,13 @@ function filter() {
         <main class="flex ml-28">
             <div class="max-w-screen-sm w-auto ml-20 mt-14 p-2 bg-white rounded-lg" id="container">
                 <span> svg </span>
-                <input class="w-80 size-7 bg-purple p-2" type="text" placeholder="Pesquisa"/>
+                <input class="w-80 size-7 bg-purple p-2 outline-none" type="text" placeholder="Pesquisa"/>
                 <button class="pl-1" @click="filter">filtro</button>
+            </div>
+            <div class="absolute top-2/4 left-2/4 p-8 bg-white">
+                <ul>
+                    teste
+                </ul>
             </div>
         </main>
     </div>  
