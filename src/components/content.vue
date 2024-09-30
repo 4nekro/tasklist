@@ -24,7 +24,11 @@ function filter() {
                 </button>
             </div>
 
-            
+            <div class="absolute top-2/4 left-2/4 p-8 bg-gray-500">
+                <ul>
+                    teste
+                </ul>
+            </div>
         </main>
     </div>  
 </template>
