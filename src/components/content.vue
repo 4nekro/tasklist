@@ -28,17 +28,21 @@ function filter() {
             </div>
 
         <main class="flex ml-28">
-            <!-- TaskList -->
-            <div class=" bg-list-dark w-full h-screen p-10"> <!-- Quadrado cinza de trás -->
-                <div class="inline-flex justify-between gap-80 pl-10 font-bold text-lg"> <!-- Quadrado branco com as tarefas -->
-                    <p>Tarefas</p> <p>Designado</p> <p>Status</p> <p>Data</p> <p>Notas</p>
-                </div>
-                <div class="bg-list-light w-fit h-screen m-5" > <!-- Quadrado branco com as tarefas -->
-                 <ul>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae nostrum, quis repellendus, voluptatum incidunt rerum sequi eaque nam corrupti quod excepturi ipsum sapiente rem, porro fugit veniam dolorum eius aperiam.
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate dolore quia odio inventore est doloribus perferendis. Dolor dolorem ipsa voluptates. Perferendis id quo sit laboriosam quos, nam consequuntur est magni.
-                 </ul>
-                </div>
-            </div>
+            <!-- TaskList -->  
+            <div class="grid bg-list-dark w-ful h-full p-8"> <!-- Quadrado cinza de trás -->
+                    <div class="inline-flex justify-between gap-80 pl-10 mb-2 font-bold text-lg"> <!-- Quadrado branco com as tarefas -->
+                        <p>Tarefas</p> <p>Designado</p> <p>Status</p> <p>Data</p> <p>Notas</p>
+                    </div>
+                    <div class=" bg-list-light w-fit h-screen m-5 bg-grid-repeat bg-grid-size"> <!-- Quadrado branco com as tarefas -->
+                        
+                        <ul>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae nostrum, quis repellendus, voluptatum incidunt rerum sequi eaque nam corrupti quod excepturi ipsum sapiente rem, porro fugit veniam dolorum eius aperiam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate dolore quia odio inventore est doloribus perferendis. Dolor dolorem ipsa voluptates. Perferendis id quo sit laboriosam quos, nam consequuntur est magni.
+                        </ul>
+                    </div> 
+                    <div class="" > 
+                        
+                    </div>
+                </div>            
         </main>
 </template>
